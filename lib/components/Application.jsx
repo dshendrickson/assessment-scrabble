@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import { pick, map, extend, filter} from 'lodash';
-import moment from 'moment';
-// import firebase, { reference, signIn, signOut } from '../firebase';
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
+import sinon from 'sinon'
+import { pick, map, extend, filter } from 'lodash'
 
 export default class Application extends Component {
   render() {
